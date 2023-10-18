@@ -1,0 +1,56 @@
+
+style * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100px;
+    align-items: center;
+}
+
+.contedor {
+    width: 100vw;
+    height: 100vh;
+    background:url("nft.png");
+    background-color: #a1adff;
+}
+
+.nave {
+    width: 50px;
+    height: 66px;
+    position: fixed;
+    bottom: 100px;
+    transition: all 1s ease;
+    animation: animetemario 2s linear forwards;
+    animation-name: nave;
+    background: url() repeat-x 0px 0px;
+    background-size: 50px;
+    background-position-x: 0px;
+}
+
+h1 {
+    font-family: "press start 2p", cursive;
+    text-align: center;
+    width: 100px;
+    font-size: 30px;
+    position: fixed;
+}
+
+@keyframes nave {
+    0% {
+        margin-left: -50px;
+    }
+    60% {
+        transform: translateY(0px)
+    }
+    70% {
+        transform: translateY(-90px)
+    }
+    90% {
+        transform: translateY (opx)
+    }
+    100% {
+        margin-left: 100vw;
+    }
+}

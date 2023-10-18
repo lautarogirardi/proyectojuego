@@ -1,0 +1,58 @@
+
+style body {
+    text-align: center;
+    background: #ecf0f1;
+    padding-top: 20px;
+}
+
+.boton {
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'helvetica', Arial, sans-serif;
+    display: inline-block;
+    color: #FFF;
+    background: #7f8c8d;
+    padding: 10px 20px;
+    white-space: nowrap;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 100px;
+    margin: 10px 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.azul {
+    background: #3498DB;
+    box-shadow: 0px 10px 0px 0px #024069;
+}
+
+.rojo {
+    background: #db6334;
+    box-shadow: 0px 5px 0px 0px #bb4444;
+}
+
+.verde {
+    background: #34db58;
+    box-shadow: 0px 12px 0px 0px #29b976;
+}
+
+#tablero {
+    margin-top: 10px;
+    background: url(web) url(web);
+    box-shadow: 0px 10px -6px -7px rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
